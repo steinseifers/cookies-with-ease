@@ -1,0 +1,276 @@
+body .klaro {
+	--cwe-bg: #ffffff;
+	--cwe-text: #1a1a1a;
+	--cwe-muted: #6b6b6b;
+	--cwe-border: #e2e2e2;
+	--cwe-decline-bg: #e2e2e2;
+	--cwe-decline-hover: #d0d0d0;
+	--cwe-learnmore-hover-bg: #f2f2f2;
+	}
+	body.cookieswithease-scheme-dark-black .klaro {
+		--cwe-bg: #1a1a1a;
+		--cwe-text: #f5f5f5;
+		--cwe-muted: #a0a0a0;
+		--cwe-border: #333333;
+		--cwe-decline-bg: #333333;
+		--cwe-decline-hover: #444444;
+		--cwe-learnmore-hover-bg: #262626;
+		}
+	body.cookieswithease-scheme-dark-blue .klaro {
+		--cwe-bg: #1e3a5f;
+		--cwe-text: #eaf2f8;
+		--cwe-muted: #9db4c9;
+		--cwe-border: #335777;
+		--cwe-decline-bg: #2c4f70;
+		--cwe-decline-hover: #365f85;
+		--cwe-learnmore-hover-bg: #24476a;
+		}
+
+body.cookieswithease-hide-icon .klaro .cookie-modal-notice::before,
+body.cookieswithease-hide-icon .klaro .cookie-modal .cm-modal.cm-klaro::before {
+	display: none;
+	}
+
+body .klaro .cookie-modal-notice,
+body .klaro .cookie-modal .cm-modal.cm-klaro {
+	position: relative;
+	overflow: visible;
+	background-color: var(--cwe-bg);
+	color: var(--cwe-text);
+	border-radius: 20px;
+	}
+	body .klaro .cookie-modal-notice {
+		padding: 32px 24px 24px;
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro {
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+		}
+	body .klaro .cookie-modal-notice::before,
+	body .klaro .cookie-modal .cm-modal.cm-klaro::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		width: 64px;
+		height: 64px;
+		background-image: url(../images/cookieswithease.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		}
+	body .klaro .cookie-modal-notice::selection {
+		background: transparent;
+		color: inherit;
+		}
+	body .klaro .cookie-modal-notice:focus,
+	body .klaro .cookie-modal .cm-modal.cm-klaro:focus {
+		outline: none;
+		}
+	body .klaro .cookie-modal-notice p,
+	body .klaro .cookie-modal-notice strong,
+	body .klaro .cookie-modal-notice h1,
+	body .klaro .cookie-modal-notice h2 {
+		color: var(--cwe-text);
+		text-align: center;
+		}
+	body .klaro .cookie-modal-notice .cn-body {
+		padding: 0;
+		}
+	body .klaro .cookie-modal-notice .cn-ok {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 10px;
+		margin-top: 20px;
+		}
+		body .klaro .cookie-modal-notice .cn-ok .cn-buttons {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			order: 1;
+			width: 100%;
+			}
+
+body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn,
+body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer .cm-btn {
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: background-color 0.35s ease, transform 0.35s ease;
+	}
+	body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn {
+		width: 100%;
+		margin-right: 0;
+		padding: 12px;
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer .cm-btn {
+		padding: 12px 20px;
+		}
+	body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn:active,
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer .cm-btn:active {
+		transform: scale(0.98);
+		}
+
+body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn.cm-btn-success,
+body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer .cm-btn.cm-btn-success {
+	background-color: #1a936f;
+	color: #ffffff;
+	}
+	body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn.cm-btn-success {
+		order: 1;
+		}
+	body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn.cm-btn-success:hover,
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer .cm-btn.cm-btn-success:hover {
+		background-color: #157a5c;
+		}
+
+		body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn.cm-btn-danger.cn-decline {
+			background-color: var(--cwe-decline-bg);
+			color: var(--cwe-text);
+			order: 2;
+			}
+			body .klaro .cookie-modal-notice .cn-ok .cn-buttons .cm-btn.cm-btn-danger.cn-decline:hover {
+				background-color: var(--cwe-decline-hover);
+				}
+		body .klaro .cookie-modal-notice .cn-ok > .cm-btn.cm-btn-info.cm-btn-lern-more {
+			order: 2;
+			width: 100%;
+			background-color: transparent;
+			color: var(--cwe-muted);
+			font-size: 13px;
+			font-weight: 400;
+			padding: 6px;
+			margin-top: 0;
+			margin-bottom: -10px;
+			box-shadow: none;
+			transition: background-color 0.35s ease, color 0.35s ease;
+			}
+			body .klaro .cookie-modal-notice .cn-ok > .cm-btn.cm-btn-info.cm-btn-lern-more:hover {
+				background-color: var(--cwe-learnmore-hover-bg);
+				color: var(--cwe-text);
+				}
+
+body .klaro .cookie-modal .cm-modal.cm-klaro .cm-header,
+body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer {
+	border-color: var(--cwe-border);
+	padding: 24px;
+	}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-header h1.title {
+		display: none;
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-header p {
+		padding-right: 32px;
+		padding-top: 10px;
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-header p span {
+		color: var(--cwe-muted);
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-header .hide svg {
+		stroke: var(--cwe-text);
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-footer {
+		display: flex;
+		justify-content: space-between;
+	}
+	body .klaro .cookie-modal .cm-modal .cm-body {
+		padding: 24px;
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-body .cm-list-title {
+		color: var(--cwe-text);
+		}
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-body .cm-list-description,
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-body .purposes,
+	body .klaro .cookie-modal .cm-modal.cm-klaro .cm-body .cm-caret a {
+		color: var(--cwe-muted);
+		}
+
+/*
+ * Klaro renders a "load external content?" placeholder in place of any
+ * gated iframe (embeds like YouTube/Vimeo) until the visitor consents to
+ * that specific Application. It ships without styling of its own.
+ * display: inline-block (instead of Klaro's default block) is deliberate:
+ * the iframe it stands in for is an inline-level replaced element, so the
+ * placeholder needs the same display type to pick up whatever alignment
+ * (text-align, wp-block align*, ...) the surrounding page already applies
+ * to it - rather than us hardcoding one alignment here.
+ */
+body div[data-type="placeholder"] {
+	display: inline-block;
+	/* Klaro sets max-width inline (matching the gated iframe's own width),
+	 * but inline-block sizes to shrink-fit its content by default, unlike
+	 * a block box (which fills up to max-width). width: 100% forces it to
+	 * fill instead - still correctly capped by that inline max-width. */
+	width: 100%;
+	max-width: 100%;
+	vertical-align: top;
+	}
+
+/*
+ * Visually this should read as the video player it's standing in for, not
+ * as one of our cookie-banner cards - dark, edge-to-edge, no card chrome.
+ */
+	body div[data-type="placeholder"] .cm-as-context-notice {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		min-height: 180px;
+		background-color: #0f0f0f;
+		}
+		body div[data-type="placeholder"] .cm-as-context-notice .context-notice {
+			max-width: 320px;
+			padding: 24px;
+			text-align: center;
+			color: #f1f1f1;
+			background-color: transparent;
+			border: none;
+			border-radius: 0;
+			}
+			body div[data-type="placeholder"] .cm-as-context-notice .context-notice p {
+				margin: 0 0 16px;
+				color: inherit;
+				}
+			body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons {
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				gap: 10px;
+				}
+				body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons .cm-btn {
+					border: none;
+					border-radius: 2px;
+					padding: 10px 20px;
+					font-size: 14px;
+					font-weight: 600;
+					cursor: pointer;
+					transition: background-color 0.2s ease;
+					}
+					body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons .cm-btn.cm-btn-success,
+					body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons .cm-btn.cm-btn-success-var {
+						background-color: #ff0000;
+						color: #ffffff;
+						}
+						body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons .cm-btn.cm-btn-success:hover,
+						body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons .cm-btn.cm-btn-success-var:hover {
+							background-color: #cc0000;
+							}
+
+/*
+ * Klaro renders two buttons here by default: a temporary "accept once" one
+ * (className cm-btn-success, always available) and a persistent "accept
+ * always" one (className cm-btn-success-var, only rendered once the
+ * visitor has been through the main consent notice/modal at least once).
+ * cookieswithease-config.js gives both the same label ("Yes"), so once the
+ * persistent option exists we hide the temporary one - visitors then only
+ * ever see one button, and it's the one that actually remembers consent.
+ * Before that (a visitor's very first-ever pageview), only the temporary
+ * one exists at all and stays visible, since Klaro won't offer a
+ * persistent per-embed choice before the main consent decision is made.
+ */
+body div[data-type="placeholder"] .cm-as-context-notice .context-notice .cm-buttons:has(.cm-btn-success-var) .cm-btn-success:not(.cm-btn-success-var) {
+	display: none;
+	}
