@@ -1,0 +1,59 @@
+.main-content {float:left;width:65%;}
+.main-sidebar {float:right;width:30%;background:#ffffff;border: 1px solid #e5e5e5;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);}
+.main-sidebar h3 {margin: 0;padding: 8px 12px;border-bottom: 1px solid #ececec;}
+.main-sidebar .inner {padding:10px;}
+.main-sidebar p {padding:8px;margin:0;border-top:solid 1px #e5e5e5;}
+.mystickyinput {padding-top: 6px;}
+.post_meta_extras p{margin: 20px;}
+.post_meta_extras label{display:block; margin-bottom: 10px;}
+.post_meta_extras .cookieswithease-field-label {
+	font-weight: 700;
+	margin-bottom: 4px;
+	}
+.post_meta_extras .cookieswithease-divider {
+	margin-left: -12px;
+	margin-right: -12px;
+	width: calc(100% + 24px);
+	}
+.cookieswithease-scheme-pill {
+	display: inline-flex;
+	border: 1px solid #dcdcde;
+	border-radius: 999px;
+	overflow: hidden;
+	}
+	.cookieswithease-scheme-pill .cookieswithease-scheme-option {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		padding: 6px 14px;
+		cursor: pointer;
+		border-right: 1px solid #dcdcde;
+		transition: background-color 0.15s ease;
+		}
+		.cookieswithease-scheme-pill .cookieswithease-scheme-option:last-child {
+			border-right: none;
+			}
+		.cookieswithease-scheme-pill .cookieswithease-scheme-option.is-active {
+			background-color: #2271b1;
+			color: #ffffff;
+			}
+			.cookieswithease-scheme-pill .cookieswithease-scheme-option.is-active .cookieswithease-scheme-swatch {
+				box-shadow: 0 0 0 2px #ffffff, 0 0 0 1px rgba(0, 0, 0, 0.25);
+				}
+		.cookieswithease-scheme-pill .cookieswithease-scheme-option input {
+			position: absolute;
+			opacity: 0;
+			width: 0;
+			height: 0;
+			}
+		.cookieswithease-scheme-pill .cookieswithease-scheme-swatch {
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			border: 1px solid rgba(0, 0, 0, 0.15);
+			transition: box-shadow 0.15s ease;
+			}
+@media screen and (max-width: 782px) {
+.main-content, .main-sidebar { width:100%; float:none;clear:both;}
+}

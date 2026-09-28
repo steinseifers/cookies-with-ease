@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookies with Ease 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cookies-with-ease\n"
+"POT-Creation-Date: 2026-09-28T16:14:50+00:00\n"
+"PO-Revision-Date: 2026-09-28 00:00+0000\n"
+"Last-Translator: Christian Steinseifer\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: cookies-with-ease\n"
+"X-Generator: manual\n"
+
+#. Plugin Name of the plugin
+#: cookies-with-ease.php includes/class-post-type.php:19
+#: includes/class-settings.php:72
+msgid "Cookies with Ease"
+msgstr "Cookies with Ease"
+
+#. Description of the plugin
+#: cookies-with-ease.php
+msgid "A simple, privacy-friendly cookie consent manager based on Klaro!. Gate third-party scripts and embeds behind visitor consent, manage them as Applications, and style the banner with built-in color schemes."
+msgstr "Een eenvoudige, privacyvriendelijke cookie-consentmanager op basis van Klaro!. Laad scripts en insluitingen van derden pas na toestemming van de bezoeker, beheer ze als Applicaties en pas de banner aan met ingebouwde kleurenschema's."
+
+#. Author of the plugin
+#: cookies-with-ease.php
+msgid "Steinseifers Kommunikationswerkstatt"
+msgstr "Steinseifers Kommunikationswerkstatt"
+
+#. Author URI of the plugin
+#: cookies-with-ease.php
+msgid "https://steinseifers.de"
+msgstr "https://steinseifers.de"
+
+#: includes/class-frontend.php:110
+msgid "We collect and process your personal information for the following purposes: {purposes}. "
+msgstr "Wij verzamelen en verwerken uw persoonsgegevens voor de volgende doeleinden: {purposes}. "
+
+#: includes/class-frontend.php:111
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: includes/class-frontend.php:112
+msgid "There were changes since your last visit, please update your consent."
+msgstr "Er zijn wijzigingen geweest sinds uw laatste bezoek. Werk uw toestemming bij."
+
+#: includes/class-frontend.php:113
+msgid "Here you can see and customize the information that we collect about you."
+msgstr "Hier kunt u de informatie die wij over u verzamelen bekijken en aanpassen."
+
+#: includes/class-frontend.php:114
+msgid "Information that we collect"
+msgstr "Informatie die wij verzamelen"
+
+#: includes/class-frontend.php:115
+msgid "To learn more, please read our {privacyPolicy}. "
+msgstr "Lees voor meer informatie ons {privacyPolicy}. "
+
+#: includes/class-frontend.php:116
+msgid "privacy policy"
+msgstr "privacybeleid"
+
+#: includes/class-frontend.php:117
+msgid "Powered by Klaro!"
+msgstr "Mogelijk gemaakt door Klaro!"
+
+#: includes/class-frontend.php:118
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-frontend.php:119
+msgid "Decline"
+msgstr "Weigeren"
+
+#: includes/class-frontend.php:120
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/class-frontend.php:121
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/class-frontend.php:122
+msgid "Accept all"
+msgstr "Alles accepteren"
+
+#: includes/class-frontend.php:123
+msgid "Accept selected"
+msgstr "Selectie accepteren"
+
+#: includes/class-frontend.php:124 includes/class-metabox.php:84
+msgid "Purpose"
+msgstr "Doel"
+
+#: includes/class-frontend.php:125
+msgid "Purposes"
+msgstr "Doeleinden"
+
+#: includes/class-frontend.php:126
+msgid "Toggle all apps"
+msgstr "Alle apps in-/uitschakelen"
+
+#: includes/class-frontend.php:127
+msgid "Use this switch to enable/disable all apps."
+msgstr "Gebruik deze schakelaar om alle apps in of uit te schakelen."
+
+#: includes/class-frontend.php:128
+msgid "(opt-out)"
+msgstr "(opt-out)"
+
+#: includes/class-frontend.php:129
+msgid "This app is loaded by default (but you can opt out)"
+msgstr "Deze app wordt standaard geladen (u kunt zich hiervoor afmelden)"
+
+#: includes/class-frontend.php:130
+msgid "(always required)"
+msgstr "(altijd vereist)"
+
+#: includes/class-frontend.php:131
+msgid "This application is always required"
+msgstr "Deze toepassing is altijd vereist"
+
+#: includes/class-frontend.php:132 includes/class-metabox.php:87
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/class-frontend.php:133 includes/class-metabox.php:89
+msgid "Security"
+msgstr "Beveiliging"
+
+#: includes/class-frontend.php:134 includes/class-metabox.php:88
+msgid "Advertising"
+msgstr "Advertenties"
+
+#: includes/class-frontend.php:135 includes/class-metabox.php:92
+msgid "Styling"
+msgstr "Vormgeving"
+
+#: includes/class-frontend.php:136 includes/class-metabox.php:90
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: includes/class-frontend.php:137 includes/class-metabox.php:93
+msgid "Other"
+msgstr "Overig"
+
+#: includes/class-frontend.php:138 includes/class-metabox.php:91
+msgid "Functionality"
+msgstr "Functionaliteit"
+
+#: includes/class-frontend.php:150
+msgid "Do you want to load external content supplied by {title}?"
+msgstr "Wilt u externe inhoud van {title} laden?"
+
+#: includes/class-frontend.php:151
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-metabox.php:55
+msgid "Application settings"
+msgstr "Toepassingsinstellingen"
+
+#: includes/class-metabox.php:97
+msgid "Set Default state for app to false. Overwrites global \"default\" setting. We recommend set this to \"false\" for apps that collect personal information."
+msgstr "Zet de standaardstatus van deze app op false. Overschrijft de globale \"default\"-instelling. We raden aan dit op \"false\" te zetten voor apps die persoonsgegevens verzamelen."
+
+#: includes/class-metabox.php:101
+msgid "Required. If \"required\" is set to true, Klaro will not allow this app to be disabled by the user."
+msgstr "Vereist. Als \"required\" op true staat, kan de gebruiker deze app niet uitschakelen."
+
+#: includes/class-metabox.php:105
+msgid "Opt-out. If \"optOut\" is set to true, Klaro will load this app even before the user gave explicit consent. We recommend always leaving this \"false\"."
+msgstr "Opt-out. Als \"optOut\" op true staat, laadt Klaro deze app al voordat de gebruiker uitdrukkelijk toestemming heeft gegeven. We raden aan dit altijd op \"false\" te laten staan."
+
+#: includes/class-metabox.php:110
+msgid "Only Once. If \"onlyOnce\" is set to true, the app will only be executed once regardless how often the user toggles it on and off."
+msgstr "Slechts één keer. Als \"onlyOnce\" op true staat, wordt de app slechts één keer uitgevoerd, ongeacht hoe vaak de gebruiker deze in- en uitschakelt."
+
+#: includes/class-metabox.php:116
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/class-metabox.php:118
+msgid "Shown to your visitors in the cookie consent banner. Keep it short and easy to understand — this is NOT the place for code."
+msgstr "Wordt getoond aan uw bezoekers in de cookie consentbanner. Houd het kort en begrijpelijk — dit is NIET de plek voor code."
+
+#: includes/class-metabox.php:154
+msgid "Integration Code"
+msgstr "Integratiecode"
+
+#: includes/class-metabox.php:157
+msgid "Read-only:"
+msgstr "Alleen-lezen:"
+
+#: includes/class-metabox.php:157
+msgid "Your user account lacks the \"unfiltered_html\" capability (e.g. on multisite or with DISALLOW_UNFILTERED_HTML), so the integration code cannot be changed here. The saved value is kept as it is."
+msgstr "Je gebruikersaccount heeft niet de bevoegdheid ‘unfiltered_html’ (bijv. bij multisite of met DISALLOW_UNFILTERED_HTML), daarom kan de integratiecode hier niet worden gewijzigd. De opgeslagen waarde blijft ongewijzigd."
+
+#: includes/class-metabox.php:160
+msgid "This code is output automatically on your site whenever consent applies. It must use type=\"text/plain\" and match this Application's data-name so Cookies with Ease can gate it. See the example here:"
+msgstr "Deze code wordt automatisch op uw site getoond zodra toestemming is gegeven. Deze moet type=\"text/plain\" gebruiken en overeenkomen met de data-name van deze toepassing, zodat Cookies with Ease deze kan afschermen. Zie het voorbeeld hier:"
+
+#: includes/class-metabox.php:162
+msgid "Save this Application once, then reopen it to get a starting template with the correct identifier."
+msgstr "Sla deze toepassing eenmaal op en open deze opnieuw om een startsjabloon met de juiste identifier te krijgen."
+
+#: includes/class-metabox.php:179
+msgid "Note:"
+msgstr "Let op:"
+
+#: includes/class-metabox.php:180
+msgid "This code is output on every single page of your site, not just where you use this Application - there is no way to limit it to specific pages here. For an Application you only use on certain pages (e.g. a Google Maps embed on your contact page, or a video only shown on one post), leave this field empty and instead place the code directly on that page (Custom HTML block), or, for YouTube/Vimeo, use the \"Auto-gate video embeds\" setting under Settings instead."
+msgstr "Deze code wordt op elke pagina van uw site getoond, niet alleen waar u deze toepassing gebruikt - u kunt dit hier niet tot specifieke pagina's beperken. Voor een toepassing die u slechts op bepaalde pagina's gebruikt (bijvoorbeeld een Google Maps-insluiting op uw contactpagina, of een video die alleen in één bericht wordt getoond), laat u dit veld leeg en plaatst u de code rechtstreeks op die pagina (Custom HTML-blok), of gebruikt u bij YouTube/Vimeo in plaats daarvan de instelling \"Video-embeds automatisch afschermen\" onder Instellingen."
+
+#: includes/class-post-type.php:20
+msgid "Cookies w/ Ease"
+msgstr "Cookies w/ Ease"
+
+#: includes/class-post-type.php:21
+msgid "Applications"
+msgstr "Toepassingen"
+
+#: includes/class-post-type.php:22
+msgid "Application"
+msgstr "Toepassing"
+
+#: includes/class-post-type.php:23
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/class-post-type.php:24
+msgid "Add New Application"
+msgstr "Nieuwe toepassing toevoegen"
+
+#: includes/class-post-type.php:25
+msgid "Edit Application"
+msgstr "Toepassing bewerken"
+
+#: includes/class-post-type.php:26
+msgid "New Application"
+msgstr "Nieuwe toepassing"
+
+#: includes/class-post-type.php:27
+msgid "View Application"
+msgstr "Toepassing bekijken"
+
+#: includes/class-post-type.php:28
+msgid "Search Applications"
+msgstr "Toepassingen zoeken"
+
+#: includes/class-post-type.php:29
+msgid "Nothing found"
+msgstr "Niets gevonden"
+
+#: includes/class-post-type.php:30
+msgid "Nothing found in Trash"
+msgstr "Niets gevonden in de prullenbak"
+
+#: includes/class-settings.php:28 includes/class-settings.php:56
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-settings.php:55
+msgid "Settings Admin"
+msgstr "Instellingenbeheer"
+
+#: includes/class-settings.php:73
+msgid "Add Cookies with Ease cookie consent manager."
+msgstr "Cookies with Ease cookie consent manager toevoegen."
+
+#: includes/class-settings.php:87
+msgid "Reset to default settings"
+msgstr "Standaardinstellingen herstellen"
+
+#: includes/class-settings.php:96
+msgid "Plugin info"
+msgstr "Plugin-info"
+
+#: includes/class-settings.php:100
+msgid "Author:"
+msgstr "Auteur:"
+
+#: includes/class-settings.php:101
+msgid "Version:"
+msgstr "Versie:"
+
+#: includes/class-settings.php:102
+msgid "Based on Klaro (kiprotect), BSD-3-Clause"
+msgstr "Gebaseerd op Klaro (kiprotect), BSD-3-Clause"
+
+#: includes/class-settings.php:102
+msgid "Credits:"
+msgstr "Met dank aan:"
+
+#: includes/class-settings.php:138
+msgid "Element ID and Cookie Name"
+msgstr "Element-ID en cookienaam"
+
+#: includes/class-settings.php:146
+msgid "Privacy Policy Link"
+msgstr "Link naar privacybeleid"
+
+#: includes/class-settings.php:155
+msgid "Z-index"
+msgstr "Z-index"
+
+#: includes/class-settings.php:162
+msgid "Cookie expires after"
+msgstr "Cookie verloopt na"
+
+#: includes/class-settings.php:172
+msgid "Must Consent"
+msgstr "Toestemming vereist"
+
+#: includes/class-settings.php:180
+msgid "Cookie Graphic"
+msgstr "Cookie-afbeelding"
+
+#: includes/class-settings.php:188
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#: includes/class-settings.php:196
+msgid "Auto-gate video embeds"
+msgstr "Video-embeds automatisch afschermen"
+
+#: includes/class-settings.php:292
+msgid "You are not allowed to perform this action."
+msgstr "U heeft geen toestemming om deze actie uit te voeren."
+
+#: includes/class-settings.php:324
+msgid "Put a link to your privacy policy here (relative or absolute). Put shortcode [cookieswithease type=\"review\"] and [cookieswithease type=\"reset\"] to your privacy page so visitor can review, update and reset their consent."
+msgstr "Plaats hier een link naar uw privacybeleid (relatief of absoluut). Plaats de shortcode [cookieswithease type=\"review\"] en [cookieswithease type=\"reset\"] op uw privacypagina, zodat bezoekers hun toestemming kunnen bekijken, aanpassen en resetten."
+
+#: includes/class-settings.php:346
+msgid "days"
+msgstr "dagen"
+
+#: includes/class-settings.php:360
+msgid "If Must Consent is set to true, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party apps."
+msgstr "Als Toestemming vereist is ingeschakeld, toont Klaro direct het consentvenster en kan de gebruiker dit pas sluiten nadat hij actief toestemming heeft gegeven of geweigerd voor het gebruik van apps van derden."
+
+#: includes/class-settings.php:373
+msgid "Hide the cookie graphic shown above the consent banner and modal."
+msgstr "Verberg de cookie-afbeelding die boven de consentbanner en het venster wordt getoond."
+
+#: includes/class-settings.php:383
+msgid "Light"
+msgstr "Licht"
+
+#: includes/class-settings.php:387
+msgid "Dark"
+msgstr "Donker"
+
+#: includes/class-settings.php:391
+msgid "Dark Blue"
+msgstr "Donkerblauw"
+
+#: includes/class-settings.php:408
+msgid "Pick a built-in color scheme for the consent banner, or leave it on Light and override the colors yourself with custom CSS."
+msgstr "Kies een ingebouwd kleurenschema voor de consentbanner, of laat het op Licht staan en overschrijf de kleuren zelf met aangepaste CSS."
+
+#: includes/class-settings.php:418
+msgid "Automatically gate YouTube and Vimeo videos embedded via the block editor (URL paste or the embed block) behind consent, without editing each page by hand. Requires a published \"youtube\"/\"vimeo\" Application (see the draft templates created on activation) - the video only loads once the visitor consents to it."
+msgstr "Schermt automatisch via de blokkeneditor ingesloten YouTube- en Vimeo-video's (URL plakken of het embed-blok) af achter toestemming, zonder dat u elke pagina handmatig hoeft te bewerken. Vereist een gepubliceerde “youtube”/“vimeo”-toepassing (zie de conceptsjablonen die bij activering zijn aangemaakt) - de video wordt pas geladen nadat de bezoeker toestemming heeft gegeven."
+
+#: includes/class-shortcodes.php:22
+msgid "Review and update"
+msgstr "Bekijken en bijwerken"
+
+#: includes/class-shortcodes.php:26
+msgid "Reset your consents"
+msgstr "Toestemming resetten"
+
+#: includes/default-applications.php:20
+msgid "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic."
+msgstr "Google Analytics is een webanalysedienst van Google die het websiteverkeer registreert en rapporteert."
+
+#: includes/default-applications.php:26
+msgid "Google Tag Manager is a tag management system that loads other marketing and analytics scripts on your behalf."
+msgstr "Google Tag Manager is een tagbeheersysteem dat namens u andere marketing- en analysescripts laadt."
+
+#: includes/default-applications.php:32
+msgid "Facebook Pixel is an analytics tool that measures the effectiveness of advertising by understanding the actions visitors take on your website."
+msgstr "Facebook Pixel is een analysetool die de effectiviteit van advertenties meet door het gedrag van bezoekers op uw website te analyseren."
+
+#: includes/default-applications.php:38
+msgid "Embedded YouTube videos can set cookies and load third-party scripts from Google once played."
+msgstr "Ingesloten YouTube-video's kunnen cookies plaatsen en scripts van derden (Google) laden zodra ze worden afgespeeld."
+
+#: includes/default-applications.php:49
+msgid "Embedded Google Maps can set cookies and load third-party scripts from Google."
+msgstr "Ingesloten Google Maps kan cookies plaatsen en scripts van derden (Google) laden."
+
+#: includes/default-applications.php:55
+msgid "Embedded Vimeo videos can set cookies and load third-party scripts once played."
+msgstr "Ingesloten Vimeo-video's kunnen cookies plaatsen en scripts van derden laden zodra ze worden afgespeeld."
+
+#~ msgid " "
+#~ msgstr " "
